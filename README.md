@@ -49,3 +49,37 @@ Successfully tagged ashupy:v1
 
 <img src="build2.png">
 
+
+## creating container 
+
+```
+[brijesh@ip-172-31-78-85 pythoncode]$ docker  run  -it  -d  --name  ashuc1  ashupy:v1 
+9a40cca76f3b0916983dae9579d41083abb2f5fbaf90e8aaa577e80cb9e64960
+[brijesh@ip-172-31-78-85 pythoncode]$ docker  ps
+CONTAINER ID   IMAGE        COMMAND                  CREATED          STATUS          PORTS     NAMES
+9a40cca76f3b   ashupy:v1    "python /mycode/ashu…"   3 seconds ago    Up 2 seconds              ashuc1
+5a1e7abc42cf   karanpy:v1   "python /mycode/kara…"   31 seconds ago   Up 30 seconds             karanc1
+[brijesh@ip-172-31-78-85 pytho
+
+```
+
+###  image sharing concept 
+
+<img src="imgshare.png">
+
+### pushing image to docker hub 
+
+<img src="dh.png">
+
+## containerization process
+
+<img src="cont.png">
+
+##  CNA adopting new model
+
+<img src="cnaadopt.png">
+
+### k8s in one go 
+
+<img src="carch.png">
+
